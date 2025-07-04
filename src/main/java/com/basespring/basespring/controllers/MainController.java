@@ -5,12 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
-public class DemoController {
+public class MainController {
+    
     @GetMapping("/")
     public String mainMethod() {
-        return "Chào mừng Nguyễn Nam Dương đến với Java Springboot. Đây là trang chủ";
+        return "Đây là trang chủ";
     }
-
-
     
 }
