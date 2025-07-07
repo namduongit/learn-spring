@@ -28,8 +28,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.viewResolver(this.viewResolver());
     }
 
+    // Cho phép các có thể đăng kí import file css trong thư mục resource. Nó đủ thông minh để vào webapp
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/csss/**").addResourceLocations("/resources/");
+        registry.addResourceHandler("/css/**").addResourceLocations("/resources/");
     }
 }
