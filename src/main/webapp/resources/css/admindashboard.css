@@ -1,0 +1,30 @@
+/* Header Css */
+.header-warp {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
+
+.header__logo-image {
+    width: 50%;
+}
+
+.header__welcome-title {
+    font-weight: bold;
+}
+
+/* Main css */
+main {
+    height: 100vh;
+}
+
+/* Footer Css */
+.footer-warp {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
+
+.footer__content {
+    padding: 20px 0;
+}

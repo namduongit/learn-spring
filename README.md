@@ -16,6 +16,9 @@
 - Tài liệu tham khảo: https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm
 - Để in giá trị từ model thì chỉ cần <%= (new java.util.Date()).toLocaleString() %>
 
+### Note
+Khứa spring này đủ thông minh để tự vào resource/static để coi có file nào trong đó
+Ngoài ra nó tự vào thư mục webapp nữa
 
 ### Đánh dấu bài học
 `01- Tính năng HOT (NEWEST)` - Đã qua
@@ -25,4 +28,8 @@
 `05 - Chapter 4 Maven và Cấu trúc dự án` - Đã qua
 `06 - Chapter 5 Spring và Inversion of Control` - Đã qua
 `07 - Spring Secutity ` - Đã qua
-`08 - Chapter 7 Mô hình MVC - Đang học tích hợp Bootstrap và JQuery` - Đang học
+`08 - Chapter 7 Mô hình MVC` - Đã qua
+`09 - Chapter 8 ...` - Đã qua
+`10 - Chapter 9 Project thực hành` - Đang qua
+`11 - Chapter 10 Mối quan hệ` - Đang học
+
